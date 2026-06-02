@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+string s;
+
+void    perm(int n, int d, int p){
+    if (d == n) return;
+    for (int i = p; i < n; i ++){
+        cout << s[i];
+        perm(n, d+1, i+1)
+    }
+        
+}
+
+int main(){
+    cin >> s;
+
+    perm(s.size(), 0, 0);
+
+    return 0;
+}

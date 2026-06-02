@@ -1,0 +1,1 @@
+this folder contains slides for teaching infomatics classes to high school students.  the slides about trees and binary tress are quite abstract and lacking examples and use cases
