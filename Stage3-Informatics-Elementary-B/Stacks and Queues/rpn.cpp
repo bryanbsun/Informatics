@@ -1,35 +1,34 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-char s[110];
-double sta[110];
+string s;
+double sta[1000010];
 int t;
 
 void    push(double p){
-    cout << "push " << p << endl;
+//    cout << "push " << p << endl;
     sta[t++] = p;
 }
 
 double pop(){
     if (!t) return -1;
-    cout << "pop " << sta[t-1] << endl;
+//    cout << "pop " << sta[t-1] << endl;
     return sta[--t];
 }
 
 double top(){
     if (!t) return -1;
-    cout << "top " << sta[t-1] << endl;
+//    cout << "top " << sta[t-1] << endl;
     return sta[t-1];
 }
 
 int main(){
-    string line;
-    cin >> line;
-    istringstream sin(line);
+ //   string line;
+ //   getline(cin, line);
+ //   istringstream sin(line);
 
-    while (sin >> s){
-//        cout << d << " :" << s << endl;
-//    while (s){
+    while (cin >> s){
+//        cout << " :" << s << endl;
         if (s == "+")
             push(pop() + pop());
         else if (s == "*")
@@ -43,10 +42,10 @@ int main(){
             double a1 = pop();
             push(a1 / a2);
         }else
-            push(atof(s));
+            push(stof(s));
     }
 
-    cout << top() << endl;
+    cout << fixed << setprecision(6) << top() << endl;
 
     return 0;
 }
