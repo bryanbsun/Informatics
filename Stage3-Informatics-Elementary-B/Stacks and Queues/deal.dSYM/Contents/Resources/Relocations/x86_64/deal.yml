@@ -1,0 +1,51 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/binbin/Library/CloudStorage/OneDrive-Personal/CLASSES-Informatics/Stage3-Informatics-Elementary-B/Stacks and Queues/deal'
+relocations:
+  - { offset: 0x167F0, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x68EFA, symBinAddr: 0x100003000, symSize: 0x0 }
+  - { offset: 0x16A0F, size: 0x8, addend: 0x0, symName: _n, symObjAddr: 0x68F00, symBinAddr: 0x100003020, symSize: 0x0 }
+  - { offset: 0x16A25, size: 0x8, addend: 0x0, symName: _k, symObjAddr: 0x68F04, symBinAddr: 0x100003024, symSize: 0x0 }
+  - { offset: 0x16A3B, size: 0x8, addend: 0x0, symName: _p, symObjAddr: 0x68F08, symBinAddr: 0x100003028, symSize: 0x0 }
+  - { offset: 0x16A60, size: 0x8, addend: 0x0, symName: _que, symObjAddr: 0x68F20, symBinAddr: 0x100003040, symSize: 0x0 }
+  - { offset: 0x16A76, size: 0x8, addend: 0x0, symName: _f, symObjAddr: 0x439848, symBinAddr: 0x1003D3968, symSize: 0x0 }
+  - { offset: 0x16A8C, size: 0x8, addend: 0x0, symName: _r, symObjAddr: 0x43984C, symBinAddr: 0x1003D396C, symSize: 0x0 }
+  - { offset: 0x16AB1, size: 0x8, addend: 0x0, symName: _ans, symObjAddr: 0x439860, symBinAddr: 0x1003D3980, symSize: 0x0 }
+  - { offset: 0x16BE5, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_deal.cpp, symObjAddr: 0xF2B, symBinAddr: 0x100001679, symSize: 0xB }
+  - { offset: 0x16BFC, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0xEF5, symBinAddr: 0x100001643, symSize: 0x36 }
+  - { offset: 0x16C19, size: 0x8, addend: 0x0, symName: __ZSt9__advanceIPilEvRT_T0_St26random_access_iterator_tag, symObjAddr: 0xECB, symBinAddr: 0x10000161B, symSize: 0x28 }
+  - { offset: 0x16D5D, size: 0x8, addend: 0x0, symName: __ZNK9__gnu_cxx5__ops14_Iter_less_valclIPiiEEbT_RT0_, symObjAddr: 0xEA8, symBinAddr: 0x1000015F8, symSize: 0x23 }
+  - { offset: 0x16DB2, size: 0x8, addend: 0x0, symName: __ZSt23__copy_move_backward_a2ILb1EPiS0_ET1_T0_S2_S1_, symObjAddr: 0xDDF, symBinAddr: 0x10000152F, symSize: 0xC9 }
+  - { offset: 0x16F6D, size: 0x8, addend: 0x0, symName: __ZSt11__push_heapIPiliN9__gnu_cxx5__ops14_Iter_less_valEEvT_T0_S5_T1_RT2_, symObjAddr: 0xCEF, symBinAddr: 0x10000143F, symSize: 0xF0 }
+  - { offset: 0x170B5, size: 0x8, addend: 0x0, symName: __ZSt4swapIiENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS4_ESt18is_move_assignableIS4_EEE5valueEvE4typeERS4_SE_, symObjAddr: 0xCAF, symBinAddr: 0x1000013FF, symSize: 0x40 }
+  - { offset: 0x1716A, size: 0x8, addend: 0x0, symName: __ZSt13__adjust_heapIPiliN9__gnu_cxx5__ops15_Iter_less_iterEEvT_T0_S5_T1_T2_, symObjAddr: 0xB39, symBinAddr: 0x100001289, symSize: 0x176 }
+  - { offset: 0x1729C, size: 0x8, addend: 0x0, symName: __ZNK9__gnu_cxx5__ops14_Val_less_iterclIiPiEEbRT_T0_, symObjAddr: 0xB16, symBinAddr: 0x100001266, symSize: 0x23 }
+  - { offset: 0x1733B, size: 0x8, addend: 0x0, symName: __ZSt12__miter_baseIPiET_S1_, symObjAddr: 0xB08, symBinAddr: 0x100001258, symSize: 0xE }
+  - { offset: 0x1736D, size: 0x8, addend: 0x0, symName: __ZSt9iter_swapIPiS0_EvT_T0_, symObjAddr: 0xAE2, symBinAddr: 0x100001232, symSize: 0x26 }
+  - { offset: 0x173B5, size: 0x8, addend: 0x0, symName: __ZSt10__pop_heapIPiN9__gnu_cxx5__ops15_Iter_less_iterEEvT_S4_S4_RT0_, symObjAddr: 0xA77, symBinAddr: 0x1000011C7, symSize: 0x6B }
+  - { offset: 0x174B1, size: 0x8, addend: 0x0, symName: __ZSt11__make_heapIPiN9__gnu_cxx5__ops15_Iter_less_iterEEvT_S4_RT0_, symObjAddr: 0x9DE, symBinAddr: 0x10000112E, symSize: 0x99 }
+  - { offset: 0x175AD, size: 0x8, addend: 0x0, symName: __ZSt25__unguarded_linear_insertIPiN9__gnu_cxx5__ops14_Val_less_iterEEvT_T0_, symObjAddr: 0x967, symBinAddr: 0x1000010B7, symSize: 0x77 }
+  - { offset: 0x176F6, size: 0x8, addend: 0x0, symName: __ZNK9__gnu_cxx5__ops15_Iter_less_iterclIPiS3_EEbT_T0_, symObjAddr: 0x944, symBinAddr: 0x100001094, symSize: 0x23 }
+  - { offset: 0x1774B, size: 0x8, addend: 0x0, symName: __ZSt21__unguarded_partitionIPiN9__gnu_cxx5__ops15_Iter_less_iterEET_S4_S4_S4_T0_, symObjAddr: 0x8BB, symBinAddr: 0x10000100B, symSize: 0x89 }
+  - { offset: 0x177B9, size: 0x8, addend: 0x0, symName: __ZSt22__move_median_to_firstIPiN9__gnu_cxx5__ops15_Iter_less_iterEEvT_S4_S4_S4_T0_, symObjAddr: 0x797, symBinAddr: 0x100000EE7, symSize: 0x124 }
+  - { offset: 0x1782E, size: 0x8, addend: 0x0, symName: __ZSt11__sort_heapIPiN9__gnu_cxx5__ops15_Iter_less_iterEEvT_S4_RT0_, symObjAddr: 0x752, symBinAddr: 0x100000EA2, symSize: 0x45 }
+  - { offset: 0x1788B, size: 0x8, addend: 0x0, symName: __ZSt13__heap_selectIPiN9__gnu_cxx5__ops15_Iter_less_iterEEvT_S4_S4_T0_, symObjAddr: 0x6D7, symBinAddr: 0x100000E27, symSize: 0x7B }
+  - { offset: 0x1791D, size: 0x8, addend: 0x0, symName: __ZSt26__unguarded_insertion_sortIPiN9__gnu_cxx5__ops15_Iter_less_iterEEvT_S4_T0_, symObjAddr: 0x699, symBinAddr: 0x100000DE9, symSize: 0x3E }
+  - { offset: 0x1799E, size: 0x8, addend: 0x0, symName: __ZSt16__insertion_sortIPiN9__gnu_cxx5__ops15_Iter_less_iterEEvT_S4_T0_, symObjAddr: 0x53C, symBinAddr: 0x100000C8C, symSize: 0x15D }
+  - { offset: 0x17BA4, size: 0x8, addend: 0x0, symName: __ZSt27__unguarded_partition_pivotIPiN9__gnu_cxx5__ops15_Iter_less_iterEET_S4_S4_T0_, symObjAddr: 0x4C0, symBinAddr: 0x100000C10, symSize: 0x7C }
+  - { offset: 0x17C12, size: 0x8, addend: 0x0, symName: __ZSt14__partial_sortIPiN9__gnu_cxx5__ops15_Iter_less_iterEEvT_S4_S4_T0_, symObjAddr: 0x47B, symBinAddr: 0x100000BCB, symSize: 0x45 }
+  - { offset: 0x17C80, size: 0x8, addend: 0x0, symName: __ZSt13__countl_zeroImEiT_, symObjAddr: 0x452, symBinAddr: 0x100000BA2, symSize: 0x29 }
+  - { offset: 0x17CC0, size: 0x8, addend: 0x0, symName: __ZSt22__final_insertion_sortIPiN9__gnu_cxx5__ops15_Iter_less_iterEEvT_S4_T0_, symObjAddr: 0x3EE, symBinAddr: 0x100000B3E, symSize: 0x64 }
+  - { offset: 0x17D1D, size: 0x8, addend: 0x0, symName: __ZSt16__introsort_loopIPilN9__gnu_cxx5__ops15_Iter_less_iterEEvT_S4_T0_T1_, symObjAddr: 0x36D, symBinAddr: 0x100000ABD, symSize: 0x81 }
+  - { offset: 0x17DB8, size: 0x8, addend: 0x0, symName: __ZSt4__lgIlET_S0_, symObjAddr: 0x34E, symBinAddr: 0x100000A9E, symSize: 0x1F }
+  - { offset: 0x17DEA, size: 0x8, addend: 0x0, symName: __ZSt11__bit_widthImEiT_, symObjAddr: 0x324, symBinAddr: 0x100000A74, symSize: 0x2A }
+  - { offset: 0x17E2D, size: 0x8, addend: 0x0, symName: __ZSt6__sortIPiN9__gnu_cxx5__ops15_Iter_less_iterEEvT_S4_T0_, symObjAddr: 0x2C9, symBinAddr: 0x100000A19, symSize: 0x5B }
+  - { offset: 0x17E8A, size: 0x8, addend: 0x0, symName: __ZSt4sortIPiEvT_S1_, symObjAddr: 0x29E, symBinAddr: 0x1000009EE, symSize: 0x2B }
+  - { offset: 0x17ED5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x114, symBinAddr: 0x100000864, symSize: 0x18A }
+  - { offset: 0x17FA5, size: 0x8, addend: 0x0, symName: __Z5emptyv, symObjAddr: 0xFD, symBinAddr: 0x10000084D, symSize: 0x17 }
+  - { offset: 0x17FC4, size: 0x8, addend: 0x0, symName: __Z5printv, symObjAddr: 0x7F, symBinAddr: 0x1000007CF, symSize: 0x7E }
+  - { offset: 0x1800B, size: 0x8, addend: 0x0, symName: __Z3popv, symObjAddr: 0x4A, symBinAddr: 0x10000079A, symSize: 0x35 }
+  - { offset: 0x1803B, size: 0x8, addend: 0x0, symName: __Z4pushi, symObjAddr: 0x1A, symBinAddr: 0x10000076A, symSize: 0x30 }
+  - { offset: 0x18062, size: 0x8, addend: 0x0, symName: __ZN9__gnu_cxx5__ops15__val_comp_iterENS0_15_Iter_less_iterE, symObjAddr: 0x13, symBinAddr: 0x100000763, symSize: 0x7 }
+  - { offset: 0x180A6, size: 0x8, addend: 0x0, symName: __ZN9__gnu_cxx5__ops14_Iter_less_valC1ENS0_15_Iter_less_iterE, symObjAddr: 0x8, symBinAddr: 0x100000758, symSize: 0xB }
+  - { offset: 0x180D1, size: 0x8, addend: 0x0, symName: __ZN9__gnu_cxx5__ops16__iter_less_iterEv, symObjAddr: 0x0, symBinAddr: 0x100000750, symSize: 0x8 }
+...
